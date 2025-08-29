@@ -94,3 +94,11 @@ footer {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   transition: 0.3s;
 }
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
