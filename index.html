@@ -82,5 +82,23 @@
     <p>&copy; 2025 Luca Canali</p>
   </footer>
 
+
+<script>
+  const btn = document.querySelector('.language-btn');
+  const options = document.querySelector('.language-options');
+
+  btn.addEventListener('click', () => {
+    options.style.display = options.style.display === 'block' ? 'none' : 'block';
+  });
+
+  // Chiudi il dropdown se clicchi fuori
+  document.addEventListener('click', (e) => {
+    if (!btn.contains(e.target) && !options.contains(e.target)) {
+      options.style.display = 'none';
+    }
+  });
+</script>
+
+  
 </body>
 </html>
