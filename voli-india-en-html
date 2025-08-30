@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analisi Voli-India – Portfolio Luca Canali</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="hero small-hero">
+    <h1>Analisi Voli Interni in India</h1>
+    <p>Report, Andamento Prezzi e Fattori di Influenza</p>
+  </header>
+
+  <section>
+    <h2>Descrizione</h2>
+    <p>Per questo progetto ho utilizzato un database relativo ai voli interni in India, che copre un arco temporale di un anno. L’obiettivo principale dell’analisi è quello di studiare i fattori di influenza chiave all'interno di questo settore.
+
+In primo luogo, l’attenzione è rivolta al prezzo medio dei voli e alla durata media delle tratte, due fattori fondamentali sia per i passeggeri che per le compagnie aeree. Successivamente, l’analisi si sofferma sul confronto tra le diverse compagnie aeree e le varie classi di viaggio, con lo scopo di evidenziare eventuali differenze significative in termini di costo e tempi di percorrenza.
+
+Un ulteriore aspetto di rilievo è rappresentato dallo studio delle rotte più trafficate, che consente di individuare i collegamenti aerei più utilizzati. </p>
+  </section>
+
+  <section>
+    <h2>Overview</h2>
+    <img src="img/over_voli.jpg" alt="Overview" style="border: 2px solid black; max-width: 100%; height: auto;">
+  <p>  In questa prima pagina del report vengono presentati alcuni indicatori generali relativi al database analizzato. In particolare, troviamo il numero complessivo di voli, il prezzo medio del biglietto e la durata media per volo, quest’ultima fortemente influenzata dalla prevalenza dei collegamenti in classe Economy, che spesso includono tratte con scali intermedi.
+
+Dall’analisi emerge che circa il 69% dei passeggeri ha viaggiato in Economy, a conferma di come questa tipologia di servizio rappresenti la scelta più comune e accessibile all’interno del mercato domestico indiano.
+
+Attraverso la mappa interattiva e il grafico a barre orizzontali, è possibile osservare la distribuzione del traffico aereo nei principali aeroporti del Paese. Tra questi spiccano nettamente Delhi e Mumbai, che si identificano come i due hub principali.
+
+Infine, il grafico a torta illustra le quote di mercato delle diverse compagnie aeree. Grazie al filtro disponibile in alto a destra, è possibile personalizzare la visualizzazione, segmentando le quote in base alla classe di servizio (Business o Economy), ottenendo così una panoramica più dettagliata.
+  </p>
+    
+  </section>
+
+ <section>
+    <h2>Andamento dei Prezzi</h2>
+   <img src="img/AnalisiPrezzi.jpg" alt="Andamento dei prezzi" style="border: 2px solid black; max-width: 100%; height: auto;">
+   <p>In questa seconda pagina del report, l’attenzione si concentra sull’analisi dei prezzi dei voli. Fin da subito emerge in modo evidente la netta differenza tra la classe Economy e la classe Business. Come prevedibile, il costo del biglietto risulta fortemente influenzato non solo dalla classe scelta, ma anche dalla durata complessiva del volo, che incide in maniera significativa sulla tariffa finale (anche se lo scatter plot presenta numerosi outlier).
+
+L’osservazione dei due boxplot dedicati ai prezzi permette di evidenziare un aspetto rilevante: mentre i valori della classe Economy presentano una distribuzione più compatta, la variabilità dei prezzi nel segmento Business è decisamente maggiore. Questo fenomeno può essere spiegato dal fatto che i biglietti Business includono una gamma più ampia di servizi aggiuntivi.</p>
+  </section>
+
+ <section>
+    <h2>Durata</h2>
+       <img src="img/Durata.jpg" alt="Durata" style="border: 2px solid black; max-width: 100%; height: auto;">
+   <p>n quest’ultima pagina del report, l’analisi si concentra sulla durata dei voli. Un primo elemento che colpisce è la bassa percentuale di voli diretti, che rappresentano soltanto il 12% del totale. Questo dato suggerisce come gran parte dei collegamenti interni in India preveda almeno uno scalo, con un conseguente impatto sia sui tempi di viaggio.
+
+Un secondo aspetto di rilievo riguarda le differenze riscontrate tra le varie compagnie aeree: alcune registrano tempi di percorrenza medi sensibilmente più alti rispetto ad altre, evidenziando strategie operative diverse e un diverso posizionamento sul mercato.
+
+La pagina integra inoltre strumenti di filtro interattivo per numero di scali e classe di servizio, che consentono all’utente di personalizzare l’analisi e ottenere una visione più dettagliata delle dinamiche del settore. </p>
+
+  </section>
+
+
+  <section class="contact">
+    <a href="index.html">⬅ Torna al Portfolio</a>
+  </section>
+
+</body>
+</html>
