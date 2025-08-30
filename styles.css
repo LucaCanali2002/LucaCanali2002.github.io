@@ -105,20 +105,14 @@ img {
 }
 
 
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 60px; /* o quanto serve */
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 20px;
-  background-color: #222;
-  z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+.navbar { 
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: center; 
+  padding: 1rem; 
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
 
 .language-switch {
   display: flex;
