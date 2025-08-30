@@ -103,3 +103,57 @@ img {
   display: block;
 }
 
+
+<style>
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Dropdown wrapper */
+.language-selector {
+  position: relative;
+  display: inline-block;
+}
+
+/* Pulsante */
+.language-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Lista opzioni */
+.language-options {
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 4px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+/* Singola voce */
+.language-options a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: #333;
+}
+
+.language-options a:hover {
+  background-color: #f0f0f0;
+}
+</style>
+
